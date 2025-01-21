@@ -47,13 +47,13 @@ body{
 }
 .title{
 	margin: 0px;
-	font-size: 90px;
+	font-size: 50px;
 	display: block;
 	
 }
 .items{
 	margin: 0px;
-	margin-bottom: 200px;
+	margin-bottom: 90px;
 }
 .item{
 	display: inline-block;
@@ -72,7 +72,7 @@ body{
 }
 .model{
 	display: grid;
-	grid-template-columns: 0.4fr;
+	grid-template-columns: 0.3fr;
 	justify-content: end;
 
 
