@@ -14,7 +14,7 @@ fetch(`https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values/She
 	console.log(y);
 	fetch(`https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values/Sheet1!B${n}?key=${apiKey}`)
  .then(response => response.json())
- .then(data => myElement[y].innerHTML =   (data.values) +'  | ')
+ .then(data => myElement[y].innerHTML =   (data.values) +'  .......... ')
  .catch(error => console.error('Error:', error));
  n+=1
 }
